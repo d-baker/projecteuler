@@ -47,10 +47,10 @@ if __name__ == "__main__":
 # http://oeis.org/A000124
 
 for n in range (1, 100):
-		if n < 2:
-			currentFib = n + n
-		else:
-			prevFib = currentFib
-			currentFib = prevFib + n
-		fibSequence.append(currentFib)
-	print fibSequence
+	if n < 2:
+		currentFib = n + n
+	else:
+		prevFib = currentFib
+		currentFib = prevFib + n
+	fibSequence.append(currentFib)
+print fibSequence
