@@ -8,7 +8,7 @@ def primes(num_nums):
 			if potential_prime % divisor == 0:
 				continue
 			elif divisor==(potential_prime/2) - 1: # if we reach this, the number isn't divisible by any of the divisors we've tried - so save it!
-					primes.append(potential_prime)
+				primes.append(potential_prime)
 
 	print primes
 
